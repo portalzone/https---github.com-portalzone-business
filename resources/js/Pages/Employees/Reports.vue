@@ -6,7 +6,6 @@ import InputLabel from '@/Components/InputLabel.vue';
 import SelectInput from '@/Components/SelectInput.vue';
 import DataTable from 'datatables.net-vue3';
 import 'datatables.net-dt/css/jquery.dataTables.css';
-// import 'node_modules/datatables.net-dt/css/jquery.dataTables.css';
 import ButtonsHtml5 from 'datatables.net-buttons/js/button.html5'
 import 'datatables.net-buttons/js/buttons.print';
 import 'datatables.net-responsive-dt';
@@ -95,7 +94,7 @@ buttons2.value = [
 
     <AuthenticatedLayout>
         <template #header>
-            <h2 class="font-semibold text-xl text-gray-800 leading-tight">Reports</h2>
+            <h2 class="font-semibold text-xl text-gray-800 leading-tight">Report</h2>
         </template>
 
         <div class="py-12">
